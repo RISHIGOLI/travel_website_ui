@@ -11,6 +11,7 @@ import {
 import { FaTripadvisor } from "react-icons/fa";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import footer_video from '../../Assets/footer_video.mp4'
 
 const Footer = () => {
   useEffect(()=>{
@@ -20,7 +21,7 @@ const Footer = () => {
     <section className="footer">
       <div className="videoDiv">
         {/* replace below image with video in future */}
-        <img src={image} alt="" />
+        <video src={footer_video} autoPlay loop muted></video>
       </div>
 
       <div className="secContent container">

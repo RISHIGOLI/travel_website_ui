@@ -4,11 +4,20 @@ import image from "../../Assets/image.jpg";
 import { HiOutlineClipboardCheck, HiOutlineLocationMarker } from "react-icons/hi";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import image8 from "../../Assets/image8.jpg";
+import image9 from "../../Assets/image9.jpg";
+import image7 from "../../Assets/image7.jpg";
+import image1 from "../../Assets/image1.jpg";
+import image2 from "../../Assets/image2.jpg";
+import image3 from "../../Assets/image3.jpg";
+import image4 from "../../Assets/image4.jpg";
+import image5 from "../../Assets/image5.jpg";
+import image6 from "../../Assets/image6.jpg";
 
 const data = [
   {
     id: 1,
-    imgSrc: image,
+    imgSrc: image1,
     destTitle: "Bora Bora",
     location: "New Zealand",
     grade: "CULTURAL RELAX",
@@ -18,83 +27,83 @@ const data = [
   },
   {
     id: 2,
-    imgSrc: image,
-    destTitle: "Bora Bora",
-    location: "New Zealand",
+    imgSrc: image2,
+    destTitle: "Machu Picchu",
+    location: "Peru",
     grade: "CULTURAL RELAX",
-    fees: "$700",
+    fees: "$600",
     description:
-      "The epitome of  romance, Bora Bora is one of the best travel destinations in the world. This place is known for its luxurious stays and adventurous activities.",
+      "Huayna Picchu is a mountain in Peru, rising over Machu Picchu, the so-called Lost City of Incas. This place is popular among tourists as the sunrise from the Sun Gate is simply spectacular",
   },
   {
     id: 3,
-    imgSrc: image,
-    destTitle: "Bora Bora",
-    location: "New Zealand",
+    imgSrc: image3,
+    destTitle: "Great Barrier Reef",
+    location: "Austalia",
     grade: "CULTURAL RELAX",
     fees: "$700",
     description:
-      "The epitome of  romance, Bora Bora is one of the best travel destinations in the world. This place is known for its luxurious stays and adventurous activities.",
+      "One of the most remarkable Australian natural gifts is the Great Barrier Reef. The hallmark of this place is 'lavish' and 'beauty'. Always interesting to be in this place",
   },
   {
     id: 4,
-    imgSrc: image,
-    destTitle: "Bora Bora",
-    location: "New Zealand",
+    imgSrc: image4,
+    destTitle: "Cappadocia",
+    location: "Trukey",
     grade: "CULTURAL RELAX",
-    fees: "$700",
+    fees: "$800",
     description:
-      "The epitome of  romance, Bora Bora is one of the best travel destinations in the world. This place is known for its luxurious stays and adventurous activities.",
+      "According to the World Tourism Ranking, 45 Million people visit Turkey each year, and from that about 2 Million come to visit Cappadocia. This place is known for its luxurious stays and adventurous activities.",
   },
   {
     id: 5,
-    imgSrc: image,
-    destTitle: "Bora Bora",
-    location: "New Zealand",
+    imgSrc: image5,
+    destTitle: "Gaunajuato",
+    location: "Mexico",
     grade: "CULTURAL RELAX",
-    fees: "$700",
+    fees: "$1100",
     description:
-      "The epitome of  romance, Bora Bora is one of the best travel destinations in the world. This place is known for its luxurious stays and adventurous activities.",
+      "A city in central Mexico, Guanajuato is known for its history of silver mining and colonial architecture. The houses in the city are very attractively painted with the most bright colors available. Always welcome.",
   },
   {
     id: 6,
-    imgSrc: image,
-    destTitle: "Bora Bora",
-    location: "New Zealand",
+    imgSrc: image6,
+    destTitle: "Cinque Terre",
+    location: "Italy",
     grade: "CULTURAL RELAX",
-    fees: "$700",
+    fees: "$840",
     description:
-      "The epitome of  romance, Bora Bora is one of the best travel destinations in the world. This place is known for its luxurious stays and adventurous activities.",
+      "The vibrant hues of the houses are its benchmark and explain the beauty of this place. Also, if you are a foodie and love seafood, you will be exhilarated with the choice you are about to get here. Happy exploring great food!.",
   },
   {
     id: 7,
-    imgSrc: image,
-    destTitle: "Bora Bora",
-    location: "New Zealand",
+    imgSrc: image7,
+    destTitle: "Angkor Wat",
+    location: "Cambodia",
     grade: "CULTURAL RELAX",
-    fees: "$700",
+    fees: "$790",
     description:
-      "The epitome of  romance, Bora Bora is one of the best travel destinations in the world. This place is known for its luxurious stays and adventurous activities.",
+      "Angkot wat represents the entire range of Khmer art from the 9th to the 15th century. This temple is considered the heart and soul of Cambodia. This place is known for its luxurious stays and adventurous activities.",
   },
   {
     id: 8,
-    imgSrc: image,
-    destTitle: "Bora Bora",
-    location: "New Zealand",
+    imgSrc: image8,
+    destTitle: "Taj Mahal",
+    location: "India",
     grade: "CULTURAL RELAX",
-    fees: "$700",
+    fees: "$900",
     description:
-      "The epitome of  romance, Bora Bora is one of the best travel destinations in the world. This place is known for its luxurious stays and adventurous activities.",
+      "An immense mausoleum of white marble, built-in Agra by Mughal emperor Shah Jahan in memory of his wife Mumtaz, the monument is breathtakingly beautiful. This place is known for its luxurious stays and adventurous activities.",
   },
   {
     id: 9,
-    imgSrc: image,
-    destTitle: "Bora Bora",
-    location: "New Zealand",
+    imgSrc: image9,
+    destTitle: "Bali Iseland",
+    location: "Indonesia",
     grade: "CULTURAL RELAX",
-    fees: "$700",
+    fees: "$500",
     description:
-      "The epitome of  romance, Bora Bora is one of the best travel destinations in the world. This place is known for its luxurious stays and adventurous activities.",
+      "Bali is an Indonesian Island and one of the best holiday destinations in the Indonesian archipelago. Bali is known for its volcanic mountains, history, art & culture, food, temples and beautiful sandy beaches.",
   },
 ];
 const Main = () => {

@@ -10,6 +10,7 @@ import { BsListTask } from "react-icons/bs";
 import { TbApps } from "react-icons/tb";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import banner_video from '../../Assets/banner_video.mp4'
 
 const Home = () => {
 
@@ -20,7 +21,8 @@ const Home = () => {
     <section className="home">
       <div className="overlay"></div>
       {/* will replace below image with video in future */}
-      <img src={image} alt="" />
+      {/* <img src={image} alt="" /> */}
+      <video src={banner_video} autoPlay loop muted></video>
       <div className="homeContent container">
         <div className="textDiv">
           <span data-aos="fade-up" className="smallText">Our Packagess</span>

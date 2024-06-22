@@ -30,7 +30,7 @@
   z-index: 1;
   mix-blend-mode: hard-light;
 }
-.home img {
+.home video {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -91,7 +91,7 @@
 .home .cardDiv .input {
   height: 40px;
   padding: 0 1rem;
-  background: var(--inputColor);
+  background: var(--cardBG);
   border-radius: 3rem;
 }
 .home .cardDiv .input input {

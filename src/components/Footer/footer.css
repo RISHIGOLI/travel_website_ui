@@ -26,7 +26,7 @@
   height: 100%;
   width: 100%;
 }
-.footer .videoDiv img {
+.footer .videoDiv video {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
